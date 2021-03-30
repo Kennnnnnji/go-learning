@@ -1,4 +1,4 @@
-package go_koans
+package koans
 
 func aboutBasics() {
 	assert(true == true)  // what is truth?
@@ -28,7 +28,7 @@ func aboutBasics() {
 		f float32
 		s string
 	}
-	assert(c.x == 0)     // and types within composite types
+	assert(c.x == 0)   // and types within composite types
 	assert(c.f == 0.0) // which match the other types
 	assert(c.s == "")  // in a typical way
 }

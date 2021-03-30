@@ -1,4 +1,4 @@
-package go_koans
+package koans
 
 func aboutSlices() {
 	fruits := []string{"apple", "orange", "mango"}

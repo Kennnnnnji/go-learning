@@ -1,4 +1,4 @@
-package go_koans
+package koans
 
 func aboutChannels() {
 	ch := make(chan string, 2)
